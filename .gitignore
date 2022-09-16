@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Visual studio
+.vs/
+*.filters
+*.user
+
+# Build files and folders
+Build/
+Int/
