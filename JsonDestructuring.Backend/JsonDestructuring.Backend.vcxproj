@@ -161,6 +161,7 @@
   <ItemGroup>
     <ClCompile Include="CBase.cpp" />
     <ClCompile Include="ListStorageHandler.cpp" />
+    <ClCompile Include="ModelFactory.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="Storage.cpp" />
   </ItemGroup>
@@ -171,6 +172,7 @@
     <ClInclude Include="Enums.h" />
     <ClInclude Include="ISystemList.h" />
     <ClInclude Include="ListStorageHandler.h" />
+    <ClInclude Include="ModelFactory.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Storage.h" />
   </ItemGroup>

@@ -1,7 +1,6 @@
 #pragma once
 
 #include <memory>
-#include "CBase.h"
 
 namespace JsonDestructure
 {
