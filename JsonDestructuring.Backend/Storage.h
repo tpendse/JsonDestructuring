@@ -1,6 +1,6 @@
 #pragma once
 
-
+#include "dllmain.h"
 #include <memory>
 #include <vector>
 #include <json.hpp>
@@ -25,7 +25,10 @@ namespace JsonDestructure
 
 	class Storage; // Fwd-decl to allow nesting
 
-	class Storage
+#pragma warning(push)
+#pragma warning(disable:4251)
+
+	class DLL Storage
 	{
         friend class ListStorageHandler;
 
@@ -253,3 +256,5 @@ std::shared_ptr<int> JsonDestructure::Storage::Get(const std::string& name);
 
 template<>
 std::shared_ptr<bool> JsonDestructure::Storage::Get(const std::string& name);
+
+#pragma warning(pop)

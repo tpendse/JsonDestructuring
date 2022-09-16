@@ -1,5 +1,6 @@
 #pragma once
 
+#include "dllmain.h"
 #include <memory>
 #include "CBase.h"
 #include "ISystemList.h"
@@ -11,8 +12,11 @@ namespace JsonDestructure
 {
     class Storage;
 
+#pragma warning(push)
+#pragma warning(disable:4251)
+
     template<typename T>
-    class CBaseList : public ISystemList<T>
+    class DLL CBaseList : public ISystemList<T>
     {
     private:
         /*
@@ -53,4 +57,6 @@ namespace JsonDestructure
             return _listStorageHandler->Valid();
         }
     };
+
+#pragma warning(pop)
 }
