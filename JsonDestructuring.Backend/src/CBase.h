@@ -1,7 +1,6 @@
 #pragma once
 
 // NOTE Do not remove these includes -- used in all CBase derived classes/models
-#include "dllmain.h"
 #include <memory>
 #include <string>
 #include "Enums.h"
@@ -20,7 +19,7 @@ namespace JsonDestructure
     /*
     * Base wrapper class for all wrapper classes
     */
-	class DLL CBase
+	class CBase
 	{
 #ifdef _DEBUG
     protected:

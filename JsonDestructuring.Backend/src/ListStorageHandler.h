@@ -1,6 +1,5 @@
 #pragma once
 
-#include "dllmain.h"
 #include <memory>
 #include "CBase.h"
 
@@ -16,7 +15,7 @@ namespace JsonDestructure
     * Including 'Storage.h' in 'ISystemList.h' would tightly couple them to the JSON lib
     * All list functions on Storage are handled here
     */
-    class DLL ListStorageHandler : public CBase
+    class ListStorageHandler : public CBase
     {
     public:
         ListStorageHandler(std::shared_ptr<Storage> listStorage);

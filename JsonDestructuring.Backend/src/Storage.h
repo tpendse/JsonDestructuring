@@ -1,6 +1,5 @@
 #pragma once
 
-#include "dllmain.h"
 #include <memory>
 #include <vector>
 #include <json.hpp>

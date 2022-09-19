@@ -18,4 +18,11 @@ namespace JsonDestructure
 		
 		virtual bool Valid() = 0;
 	};
+
+
+
+	class IModel
+	{
+
+	};
 }

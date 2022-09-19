@@ -1,9 +1,8 @@
 #pragma once
 
-#include "dllmain.h"
 #include <memory>
 #include "CBase.h"
-#include "ISystemList.h"
+#include "Interfaces.h"
 #include "ListStorageHandler.h"
 
 #include <exception>
@@ -16,7 +15,7 @@ namespace JsonDestructure
 #pragma warning(disable:4251)
 
     template<typename T>
-    class DLL CBaseList : public ISystemList<T>
+    class CBaseList : public ISystemList<T>
     {
     private:
         /*

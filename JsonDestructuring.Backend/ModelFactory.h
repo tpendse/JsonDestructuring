@@ -2,7 +2,7 @@
 
 #include <string>
 #include <memory>
-#include "ISystemList.h"
+#include "Interfaces.h"
 #include "Enums.h"
 
 namespace JsonDestructure
