@@ -28,7 +28,8 @@ namespace JsonDestructure
 #pragma warning(push)
 #pragma warning(disable:4251)
 
-	class DLL Storage
+    /* NOTE This class and header should never be exported! */
+	class Storage
 	{
         friend class ListStorageHandler;
 
